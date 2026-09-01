@@ -71,7 +71,7 @@ After a device has been commissioned successfully, it receives its own operation
 
 ## Return to Shelly firmware
 
-Press the physical device button **six times quickly**. The device saves its Thread state and returns to the Shelly firmware. The Shelly WebUI then becomes available again at its configured IP address.
+Press the physical device button **six times within 4 seconds**. The device saves its Thread state and returns to the Shelly firmware. The Shelly WebUI then becomes available again at its configured IP address.
 
 <img src="docs/images/webui-thread-return-warning.png" alt="Return warning" width="600">
 
