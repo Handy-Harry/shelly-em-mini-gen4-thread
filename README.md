@@ -57,7 +57,7 @@ Use the second QR code or manual pairing code that you saved before switching to
 
 If you missed the QR code before switching to Thread, you can use the Matter-over-Thread QR code below.
 
-<img src="docs/images/matter-thread-pairing-card.png" alt="Matter-over-Thread pairing QR code" width="600">
+<img src="docs/images/matter-thread-pairing-card.png" alt="Matter-over-Thread pairing QR code" width="300">
 
 **Matter-over-Thread manual pairing code:** `3497-011-2332`
 
