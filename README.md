@@ -55,6 +55,10 @@ Use the second QR code or manual pairing code that you saved before switching to
 
 <img src="docs/images/matter-thread-qr-highlight.png" alt="Matter-over-Thread QR code" width="600">
 
+If you missed the QR code before switching to Thread, you can use the Matter-over-Thread QR code below.
+
+<img src="docs/images/matter-thread-pairing-card.png" alt="Matter-over-Thread pairing QR code" width="600">
+
 **Matter-over-Thread manual pairing code:** `3497-011-2332`
 
 This beta firmware uses a fixed development commissioning code. The same QR code and manual pairing code are included in every device running this firmware.
