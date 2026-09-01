@@ -64,7 +64,7 @@ If you missed the QR code before switching to Thread, you can use the Matter-ove
 This beta firmware uses a fixed development commissioning code. The same QR code and manual pairing code are included in every device running this firmware.
 
 - Home Assistant may require its Matter integration or Matter Server to allow test or development commissioning codes.
-- An iPhone or other Apple device may display a warning that the Matter accessory is uncertified or uses a development setup code.
+- An iPhone or other device may display a warning that the Matter accessory is uncertified or uses a development setup code.
 - If several uncommissioned devices run this firmware, power on and commission only one device at a time.
 
 After a device has been commissioned successfully, it receives its own operational identity inside your Matter fabric and can be used normally alongside other commissioned devices.
