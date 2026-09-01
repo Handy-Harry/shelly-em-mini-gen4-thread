@@ -14,9 +14,7 @@ The first public beta includes:
 - switching from the Shelly WebUI to Thread;
 - six quick button presses to return to Shelly firmware;
 - private Thread storage without overwriting Shelly factory data;
-- LED status and Matter Identify support;
-- default Matter `NodeLabel`: `Shelly EM Mini Gen4`;
-- WebUI identification: `Stage: beta · Thread · UI 1.0.0`.
+- LED status and Matter Identify support.
 
 [Download v1.0.0 beta](https://github.com/Handy-Harry/shelly-em-mini-gen4-thread/releases/tag/v1.0.0)
 
