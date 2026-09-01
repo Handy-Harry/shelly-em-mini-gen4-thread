@@ -18,7 +18,7 @@ The first public beta includes:
 - default Matter `NodeLabel`: `Shelly EM Mini Gen4`;
 - WebUI identification: `Stage: beta · Thread · UI 1.0.0`.
 
-[Download the latest release](https://github.com/Handy-Harry/shelly-em-mini-gen4-thread/releases/latest)
+[Download v1.0.0 beta](https://github.com/Handy-Harry/shelly-em-mini-gen4-thread/releases/tag/v1.0.0)
 
 ## Requirements
 
