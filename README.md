@@ -1,3 +1,5 @@
+<img src="docs/images/shelly-em-mini-gen4-product.png" alt="Shelly EM Mini Gen4" width="600">
+
 # Shelly EM Mini Gen4 — Matter over Thread
 
 Unofficial Matter-over-Thread firmware for the **Shelly EM Mini Gen4**. It keeps the original Shelly firmware available and adds a Matter Electrical Sensor exposing voltage, current, active power and imported/exported energy.
