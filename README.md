@@ -42,7 +42,7 @@ Do **not** use the stock **Switch to alternative firmware** Zigbee action to ins
 <img src="docs/images/webui-firmware-upload.png" alt="Firmware upload" width="600">
 
 5. Before switching, open the Matter page and save the QR or manual code shown under **Thread — Shelly Unofficial**.
-6. Return to **Settings → Switch to alternative Firmware**, select **Switch to Thread**, and commission the device using the saved code.
+6. Return to **Settings → Switch to alternative Firmware** and select **Switch to Thread**.
 
 <img src="docs/images/webui-switch-to-thread.png" alt="Switch to Thread" width="600">
 
