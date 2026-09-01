@@ -41,14 +41,16 @@ Do **not** use the stock **Switch to alternative firmware** Zigbee action to ins
 
 <img src="docs/images/webui-firmware-upload.png" alt="Firmware upload" width="600">
 
-5. After the Shelly WebUI returns, open **Settings → Switch to alternative Firmware** and select **Switch to Thread**.
-6. Commission the device with your Matter controller using the QR or manual code shown in the Matter page.
+5. Before switching, open the Matter page and save the QR or manual code shown under **Thread — Shelly Unofficial**.
+6. Return to **Settings → Switch to alternative Firmware**, select **Switch to Thread**, and commission the device using the saved code.
 
 <img src="docs/images/webui-switch-to-thread.png" alt="Switch to Thread" width="600">
 
 ## Pairing with Matter over Thread
 
-After switching the device to Thread, open the Matter page in the Shelly WebUI.
+Before switching the device to Thread, open the Matter page in the Shelly WebUI and save the second QR code or manual pairing code shown under **Thread — Shelly Unofficial**.
+
+Then return to **Settings → Switch to alternative Firmware** and select **Switch to Thread**. After switching, the Shelly WebUI becomes unavailable. Use the saved QR code or manual pairing code to commission the device with your Matter controller.
 
 > [!IMPORTANT]
 > Use the **second QR code**, shown under **Thread — Shelly Unofficial**. The first QR code belongs to the standard Shelly Matter configuration and is not the commissioning code for this Matter-over-Thread firmware.
