@@ -49,10 +49,6 @@ Press the physical device button **six times quickly**. The device saves its Thr
 
 ![Return warning](docs/images/webui-thread-return-warning.png)
 
-## Matter naming
-
-The firmware exposes `Shelly EM Mini Gen4` as its Matter `NodeLabel`. Some Matter controllers still propose the generic name `Matter Accessory` during commissioning. You can safely replace that proposed name with `Shelly EM Mini Gen4` in the controller.
-
 ## Security note
 
 The beta firmware uses shared development commissioning credentials. If several uncommissioned devices run this firmware, power and commission only one at a time. After commissioning, the device receives its own operational identity in your Matter fabric.
