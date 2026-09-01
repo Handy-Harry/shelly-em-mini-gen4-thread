@@ -1,0 +1,21 @@
+# This public repository contains release documentation and verification only.
+# Local research material, device dumps, SDK trees and build products stay private.
+*
+
+!.gitignore
+!README.md
+!LICENSE
+!NOTICE
+
+!docs/
+docs/*
+!docs/images/
+!docs/images/*.png
+
+!releases/
+releases/*
+!releases/v1.0.0/
+releases/v1.0.0/*
+!releases/v1.0.0/README.md
+!releases/v1.0.0/SHA256SUMS.txt
+!releases/v1.0.0/verification.json

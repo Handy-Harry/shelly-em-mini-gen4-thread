@@ -1,0 +1,18 @@
+Shelly EM Mini Gen4 Matter-over-Thread firmware
+Public beta modifications and release packaging, 2026.
+
+Based on Shelly 1 Gen4 Matter over Thread Firmware
+Copyright 2026 AUTOMATOUS.IO
+
+This firmware is based on ESP-Matter examples by Espressif Systems
+(https://github.com/espressif/esp-matter), used under the Apache License 2.0.
+
+The compiled firmware is built with ESP-IDF and ESP-Matter and links the
+Matter SDK (connectedhomeip), OpenThread, and other Espressif and third-party
+components. Each remains the property of its respective authors and is used
+under its own license. Refer to those projects' LICENSE and NOTICE files for
+the authoritative terms.
+
+This project is unofficial and is not affiliated with or supported by Shelly
+Group. Shelly names and trademarks are used only to identify compatible
+hardware.

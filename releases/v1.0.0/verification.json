@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "status": "READY FOR PUBLIC RELEASE",
+  "device_flashed": true,
+  "hardware_led_warm_switch_verified": true,
+  "app_bytes": 2764960,
+  "app_sha256": "661c6f98bb7b0b086a9c4f5c7725308795c20b2c094f8d809a3598d495d64962",
+  "rc2_assets": {
+    "version": "1.0.0",
+    "stage": "beta",
+    "old_bytes": 286239,
+    "prior_bytes": 289677,
+    "legacy_bytes": 288996,
+    "new_bytes": 289662,
+    "transaction_id": "EMUI1:3051f5701d607590f2c6573e0123900911b1b8548c8a34df112be53b88fbe941:98cb7d07d6bde0d3d9f8c2fc09c0d15b970a6ae66c12e99f0a713757b2bbdcef",
+    "prior_transaction_id": "EMUI1:e1317ed76d369f6f79a61577fcd2fe87a3837fe3412aefecc8d97b4d18500729:98cb7d07d6bde0d3d9f8c2fc09c0d15b970a6ae66c12e99f0a713757b2bbdcef",
+    "legacy_transaction_id": "EMUI1:918ada9aef4675206a79d494269a2942591a77e75070348ef4cb7d93c82b8bf8:98cb7d07d6bde0d3d9f8c2fc09c0d15b970a6ae66c12e99f0a713757b2bbdcef",
+    "source_sha256": "fe9e729ab1538d51e8033a903c4900b02fb0353966d4209697a5cc89d596b0af",
+    "html_sha256": "ade17a4f9dffa2d69367375f60c1b2ef8c6446400c7b8fec1584e5779db344ff",
+    "extension_sha256": "a5bd00aea6c5d81645ce1f89757614eb203c9bb8cf5bfb46aaa725a3f781184a",
+    "minified_extension_sha256": "c31a8385614030d2632aabf169830a934849bab9fb6313740da9ab493d97bc12",
+    "minimum_free_stock_fs_blocks": 74,
+    "stock_html_unchanged_except_added_script": true,
+    "button_enabled": true,
+    "device_flashed": false
+  },
+  "change_scope": "Known-good RC2 plus GPIO5 hold release/reset, default NodeLabel and v1.0.0 beta identity",
+  "package": "shelly-unofficial-em-mini-gen4-v1.0.0-dual-webui.zip",
+  "package_bytes": 3552434,
+  "package_sha256": "a531a756a9544277966e57508b8b2c5dfdbb83c431965d6471f4c9e65f8b05ec"
+}
