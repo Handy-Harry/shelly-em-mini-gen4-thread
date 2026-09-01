@@ -36,12 +36,13 @@ Do not install this package on a different Shelly model or hardware revision.
 2. Open the Shelly WebUI.
 3. Go to **Settings → Firmware → Firmware file image**.
 4. Select the downloaded zip and wait for the update to finish. Do not interrupt power.
+
+<img src="docs/images/webui-firmware-upload.png" alt="Firmware upload" width="600">
+
 5. After the Shelly WebUI returns, open **Settings → Switch to alternative Firmware** and select **Switch to Thread**.
 6. Commission the device with your Matter controller using the QR or manual code shown in the Matter page.
 
 Do **not** use the stock **Switch to alternative firmware** Zigbee action to install this package.
-
-<img src="docs/images/webui-firmware-upload.png" alt="Firmware upload" width="600">
 
 <img src="docs/images/webui-switch-to-thread.png" alt="Switch to Thread" width="600">
 
