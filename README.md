@@ -39,15 +39,34 @@ Do not install this package on a different Shelly model or hardware revision.
 
 Do **not** use the stock **Switch to alternative firmware** Zigbee action to install this package.
 
-![Firmware upload](docs/images/webui-firmware-upload.png)
+<img src="docs/images/webui-firmware-upload.png" alt="Firmware upload" width="600">
 
-![Switch to Thread](docs/images/webui-switch-to-thread.png)
+<img src="docs/images/webui-switch-to-thread.png" alt="Switch to Thread" width="600">
+
+## Pairing with Matter over Thread
+
+After switching the device to Thread, open the Matter page in the Shelly WebUI.
+
+> [!IMPORTANT]
+> Use the **second QR code**, shown under **Thread — Shelly Unofficial**. The first QR code belongs to the standard Shelly Matter configuration and is not the commissioning code for this Matter-over-Thread firmware.
+
+<img src="docs/images/matter-thread-qr-highlight.png" alt="Matter-over-Thread QR code" width="600">
+
+**Matter-over-Thread manual pairing code:** `3497-011-2332`
+
+This beta firmware uses a fixed development commissioning code. The same QR code and manual pairing code are included in every device running this firmware.
+
+- Home Assistant may require its Matter integration or Matter Server to allow test or development commissioning codes.
+- An iPhone or other Apple device may display a warning that the Matter accessory is uncertified or uses a development setup code.
+- If several uncommissioned devices run this firmware, power on and commission only one device at a time.
+
+After a device has been commissioned successfully, it receives its own operational identity inside your Matter fabric and can be used normally alongside other commissioned devices.
 
 ## Return to Shelly firmware
 
 Press the physical device button **six times quickly**. The device saves its Thread state and returns to the Shelly firmware. The Shelly WebUI then becomes available again at its configured IP address.
 
-![Return warning](docs/images/webui-thread-return-warning.png)
+<img src="docs/images/webui-thread-return-warning.png" alt="Return warning" width="600">
 
 ## Security note
 
